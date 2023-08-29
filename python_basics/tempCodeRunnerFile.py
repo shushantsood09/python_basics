@@ -1,6 +1,6 @@
-timeStamp = int(time.strftime('%H'))
-# print(timeStamp)
-# timeStamp = int(time.strftime('%M'))
-# print(timeStamp)
-# timeStamp = int(time.strftime('%S'))
-# print(timeStamp)
+colors = ["Red", "Yellow", "Blue", "Green"]
+# for color in colors:
+#     print(color)
+#     for i in color:
+#         print(i)
+
