@@ -1,6 +1,4 @@
-colors = ["Red", "Yellow", "Blue", "Green"]
-# for color in colors:
-#     print(color)
-#     for i in color:
-#         print(i)
-
+l.sort()
+# print("sorted list : ",l)
+# l.sort(reverse=True)
+# print("sorted list with reverse : ",l)
