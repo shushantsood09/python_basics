@@ -1,1 +1,2 @@
-tup = (1,5)
+cities.intersection_update(cities2)
+# print(cities)
