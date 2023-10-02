@@ -1,2 +1,3 @@
-cities.intersection_update(cities2)
-# print(cities)
+print(info)
+print(info['name'])
+print(info.get('eligible'))
