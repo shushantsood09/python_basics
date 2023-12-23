@@ -5,3 +5,24 @@
 
 # Decoding:
 # if the word contains less than 3 characters, reverse it else: remove 3 random characters from start and end. Now remove the last letter and append it to the beginning
+
+statement = input("Enter the statement")
+words = statement.split(' ')
+coding = input("Enter 1 for Coding and 2 for decoding")
+
+if(coding):
+    nwords = []
+    for word in words : 
+        if(len(word) >=3):
+            r1 = "dgh"
+            r2 = "jki"
+            statement = statement[1:] + statement[0]
+            print(statement)
+            statement = r1 + statement[1:] + statement[0] + r2
+            nwords.append(statement)
+            print(nwords)
+        else:
+            nwords.append(word[::-1])
+        print(" ".join(nwords))
+else:
+    pass

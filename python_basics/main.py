@@ -1,0 +1,3 @@
+import shushant
+
+shushant.welcome()
