@@ -1,3 +1,2 @@
-text = f.read()
-# print(text)
-# f.close()
+f not line:
+        break
